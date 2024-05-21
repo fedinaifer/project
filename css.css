@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#get-started {
+	color: rgb(191, 185, 12); 
+	cursor: pointer; 
+}
+
+#description {
+	color: gray;
+	font-size: 12px;
+}
+
+.welcome-page {    
+	background-image: url('welcome-image.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menus {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu {
+	width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(245, 243, 243);
+    text-align: center;
+	cursor: pointer; 
+}
+
+#username {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+
+#diet-list {
+	display: none; 
+	color: white; 
+    
+}
+
+#person-name {
+	display: none; 
+	color: white; 
+	font-size: 32px; 
+	font-weight: bold; 
+	margin-bottom: 50px;
+}
+
+li {
+  margin-bottom: 10px;
+}
